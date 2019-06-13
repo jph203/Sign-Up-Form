@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>AnalogSea</title> 
+    <meta name='description'
+    content='Cloud Computing'>
+
+</head>
+<body>                              
+    <img class="logo-image" src="/images/analogsea.png" alt="Analog Sea Logo"> 
+
+    <form role='analog-form' action='/signup' accept-charset='UTF-8' method='post' class='signup-form'>
+    <fieldset name='sign-up-info'>
+     <!--Had issues here-->
+     <fieldset>
+    <legend>Sign Up</legend> 
+    <label
+     for='email'>Email</label>
+    <input type='email' placeholder='Your@email.com' name='user-email' id='user-email'aria-required/>
+    <label for='user-password'>Password</label>
+    <input placeholder="Type Your Password Here" type='password' name='user-password' id='user-password' required/>
+    <button type="submit">Sign Up</button>
+    </fieldset>
+    </form>
+<!-- Had some issues here as well-->
+    <footer role='contentinfo' class='footer'> 
+        <!--used a href='www.analogsea.com/login as href link-->
+        <p>Already Have An Account? <a href='/login'>Log In</a></p>
+    </footer>                   
+  </body>
+</html>
+
